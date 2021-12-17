@@ -1,0 +1,6 @@
+framework module SCopensslSha1 {
+  umbrella header "SCopensslSha1.h"
+
+  export *
+  module * { export * }
+}

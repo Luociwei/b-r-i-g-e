@@ -1,0 +1,6 @@
+framework module SCZmq {
+  umbrella header "SCZmq.h"
+
+  export *
+  module * { export * }
+}

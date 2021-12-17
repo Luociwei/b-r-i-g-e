@@ -1,0 +1,6 @@
+framework module RyanCheckImageCell {
+  umbrella header "RyanCheckImageCell.h"
+
+  export *
+  module * { export * }
+}

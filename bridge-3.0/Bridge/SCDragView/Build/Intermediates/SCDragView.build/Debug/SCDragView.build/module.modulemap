@@ -1,0 +1,6 @@
+framework module SCDragView {
+  umbrella header "SCDragView.h"
+
+  export *
+  module * { export * }
+}

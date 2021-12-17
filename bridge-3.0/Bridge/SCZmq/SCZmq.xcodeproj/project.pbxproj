@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77595F6424BA0C4A0054A909 /* SCZmq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77595F5A24BA0C4A0054A909 /* SCZmq.framework */; };
+		77595F6924BA0C4A0054A909 /* SCZmqTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77595F6824BA0C4A0054A909 /* SCZmqTests.m */; };
+		77595F6B24BA0C4A0054A909 /* SCZmq.h in Headers */ = {isa = PBXBuildFile; fileRef = 77595F5D24BA0C4A0054A909 /* SCZmq.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77595F8624BA0C690054A909 /* Publisher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77595F7424BA0C680054A909 /* Publisher.cpp */; };
+		77595F8824BA0C690054A909 /* zmq_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 77595F7624BA0C680054A909 /* zmq_utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77595F8924BA0C690054A909 /* Subscriber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77595F7724BA0C680054A909 /* Subscriber.cpp */; };
+		77595F8A24BA0C690054A909 /* zmqw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77595F7824BA0C680054A909 /* zmqw.cpp */; };
+		77595F8B24BA0C690054A909 /* Requester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77595F7924BA0C680054A909 /* Requester.cpp */; };
+		77595F8C24BA0C690054A909 /* Subscriber.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 77595F7A24BA0C680054A909 /* Subscriber.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		77595F8D24BA0C690054A909 /* Replier.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 77595F7B24BA0C680054A909 /* Replier.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		77595F8E24BA0C690054A909 /* zhelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 77595F7C24BA0C680054A909 /* zhelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77595F8F24BA0C690054A909 /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77595F7D24BA0C690054A909 /* libzmq.a */; };
+		77595F9024BA0C690054A909 /* Client.h in Headers */ = {isa = PBXBuildFile; fileRef = 77595F7E24BA0C690054A909 /* Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77595F9124BA0C690054A909 /* zmq.h in Headers */ = {isa = PBXBuildFile; fileRef = 77595F7F24BA0C690054A909 /* zmq.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77595F9224BA0C690054A909 /* Client.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77595F8024BA0C690054A909 /* Client.mm */; };
+		77595F9424BA0C690054A909 /* Requester.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 77595F8224BA0C690054A909 /* Requester.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		77595F9524BA0C690054A909 /* zmqw.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 77595F8324BA0C690054A909 /* zmqw.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		77595F9624BA0C690054A909 /* Replier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77595F8424BA0C690054A909 /* Replier.cpp */; };
+		77595F9724BA0C6A0054A909 /* Publisher.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 77595F8524BA0C690054A909 /* Publisher.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		77595F9824BA0C870054A909 /* Client.mm in Headers */ = {isa = PBXBuildFile; fileRef = 77595F8024BA0C690054A909 /* Client.mm */; settings = {ATTRIBUTES = (Public, ); }; };
+		7759600224BA13D70054A909 /* libzmq.a in Resources */ = {isa = PBXBuildFile; fileRef = 7759600124BA13D70054A909 /* libzmq.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77595F6524BA0C4A0054A909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77595F5124BA0C4A0054A909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77595F5924BA0C4A0054A909;
+			remoteInfo = SCZmq;
+		};
+		77595FC324BA0D340054A909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77595FBE24BA0D330054A909 /* SCRedis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 77595FA424BA0D330054A909;
+			remoteInfo = SCRedis;
+		};
+		77595FC524BA0D340054A909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77595FBE24BA0D330054A909 /* SCRedis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 77595FAD24BA0D330054A909;
+			remoteInfo = SCRedisTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77595F5A24BA0C4A0054A909 /* SCZmq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCZmq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77595F5D24BA0C4A0054A909 /* SCZmq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCZmq.h; sourceTree = "<group>"; };
+		77595F5E24BA0C4A0054A909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77595F6324BA0C4A0054A909 /* SCZmqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCZmqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77595F6824BA0C4A0054A909 /* SCZmqTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCZmqTests.m; sourceTree = "<group>"; };
+		77595F6A24BA0C4A0054A909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77595F7424BA0C680054A909 /* Publisher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Publisher.cpp; sourceTree = "<group>"; };
+		77595F7624BA0C680054A909 /* zmq_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq_utils.h; sourceTree = "<group>"; };
+		77595F7724BA0C680054A909 /* Subscriber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Subscriber.cpp; sourceTree = "<group>"; };
+		77595F7824BA0C680054A909 /* zmqw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zmqw.cpp; sourceTree = "<group>"; };
+		77595F7924BA0C680054A909 /* Requester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Requester.cpp; sourceTree = "<group>"; };
+		77595F7A24BA0C680054A909 /* Subscriber.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Subscriber.hpp; sourceTree = "<group>"; };
+		77595F7B24BA0C680054A909 /* Replier.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Replier.hpp; sourceTree = "<group>"; };
+		77595F7C24BA0C680054A909 /* zhelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhelpers.h; sourceTree = "<group>"; };
+		77595F7D24BA0C690054A909 /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzmq.a; sourceTree = "<group>"; };
+		77595F7E24BA0C690054A909 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		77595F7F24BA0C690054A909 /* zmq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq.h; sourceTree = "<group>"; };
+		77595F8024BA0C690054A909 /* Client.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Client.mm; sourceTree = "<group>"; };
+		77595F8224BA0C690054A909 /* Requester.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Requester.hpp; sourceTree = "<group>"; };
+		77595F8324BA0C690054A909 /* zmqw.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = zmqw.hpp; sourceTree = "<group>"; };
+		77595F8424BA0C690054A909 /* Replier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Replier.cpp; sourceTree = "<group>"; };
+		77595F8524BA0C690054A909 /* Publisher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Publisher.hpp; sourceTree = "<group>"; };
+		77595F9924BA0CEA0054A909 /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Client.h; path = SCZmq/Client.h; sourceTree = "<group>"; };
+		77595FBE24BA0D330054A909 /* SCRedis.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SCRedis.xcodeproj; path = ../SCRedis/SCRedis.xcodeproj; sourceTree = "<group>"; };
+		7759600124BA13D70054A909 /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzmq.a; path = SCZmq/libzmq.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77595F5724BA0C4A0054A909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77595F8F24BA0C690054A909 /* libzmq.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77595F6024BA0C4A0054A909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77595F6424BA0C4A0054A909 /* SCZmq.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77595F5024BA0C4A0054A909 = {
+			isa = PBXGroup;
+			children = (
+				7759600124BA13D70054A909 /* libzmq.a */,
+				77595FBE24BA0D330054A909 /* SCRedis.xcodeproj */,
+				77595F9924BA0CEA0054A909 /* Client.h */,
+				77595F5C24BA0C4A0054A909 /* SCZmq */,
+				77595F6724BA0C4A0054A909 /* SCZmqTests */,
+				77595F5B24BA0C4A0054A909 /* Products */,
+				77595FFE24BA13C10054A909 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77595F5B24BA0C4A0054A909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77595F5A24BA0C4A0054A909 /* SCZmq.framework */,
+				77595F6324BA0C4A0054A909 /* SCZmqTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77595F5C24BA0C4A0054A909 /* SCZmq */ = {
+			isa = PBXGroup;
+			children = (
+				77595F7E24BA0C690054A909 /* Client.h */,
+				77595F8024BA0C690054A909 /* Client.mm */,
+				77595F7D24BA0C690054A909 /* libzmq.a */,
+				77595F7424BA0C680054A909 /* Publisher.cpp */,
+				77595F8524BA0C690054A909 /* Publisher.hpp */,
+				77595F8424BA0C690054A909 /* Replier.cpp */,
+				77595F7B24BA0C680054A909 /* Replier.hpp */,
+				77595F7924BA0C680054A909 /* Requester.cpp */,
+				77595F8224BA0C690054A909 /* Requester.hpp */,
+				77595F7724BA0C680054A909 /* Subscriber.cpp */,
+				77595F7A24BA0C680054A909 /* Subscriber.hpp */,
+				77595F7C24BA0C680054A909 /* zhelpers.h */,
+				77595F7624BA0C680054A909 /* zmq_utils.h */,
+				77595F7F24BA0C690054A909 /* zmq.h */,
+				77595F7824BA0C680054A909 /* zmqw.cpp */,
+				77595F8324BA0C690054A909 /* zmqw.hpp */,
+				77595F5D24BA0C4A0054A909 /* SCZmq.h */,
+				77595F5E24BA0C4A0054A909 /* Info.plist */,
+			);
+			path = SCZmq;
+			sourceTree = "<group>";
+		};
+		77595F6724BA0C4A0054A909 /* SCZmqTests */ = {
+			isa = PBXGroup;
+			children = (
+				77595F6824BA0C4A0054A909 /* SCZmqTests.m */,
+				77595F6A24BA0C4A0054A909 /* Info.plist */,
+			);
+			path = SCZmqTests;
+			sourceTree = "<group>";
+		};
+		77595FBF24BA0D330054A909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77595FC424BA0D340054A909 /* SCRedis.framework */,
+				77595FC624BA0D340054A909 /* SCRedisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77595FFE24BA13C10054A909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		77595F5524BA0C4A0054A909 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77595F9024BA0C690054A909 /* Client.h in Headers */,
+				77595F8D24BA0C690054A909 /* Replier.hpp in Headers */,
+				77595F9824BA0C870054A909 /* Client.mm in Headers */,
+				77595F9724BA0C6A0054A909 /* Publisher.hpp in Headers */,
+				77595F9124BA0C690054A909 /* zmq.h in Headers */,
+				77595F9424BA0C690054A909 /* Requester.hpp in Headers */,
+				77595F8824BA0C690054A909 /* zmq_utils.h in Headers */,
+				77595F9524BA0C690054A909 /* zmqw.hpp in Headers */,
+				77595F8E24BA0C690054A909 /* zhelpers.h in Headers */,
+				77595F8C24BA0C690054A909 /* Subscriber.hpp in Headers */,
+				77595F6B24BA0C4A0054A909 /* SCZmq.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		77595F5924BA0C4A0054A909 /* SCZmq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77595F6E24BA0C4A0054A909 /* Build configuration list for PBXNativeTarget "SCZmq" */;
+			buildPhases = (
+				77595F5524BA0C4A0054A909 /* Headers */,
+				77595F5624BA0C4A0054A909 /* Sources */,
+				77595F5724BA0C4A0054A909 /* Frameworks */,
+				77595F5824BA0C4A0054A909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCZmq;
+			productName = SCZmq;
+			productReference = 77595F5A24BA0C4A0054A909 /* SCZmq.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77595F6224BA0C4A0054A909 /* SCZmqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77595F7124BA0C4A0054A909 /* Build configuration list for PBXNativeTarget "SCZmqTests" */;
+			buildPhases = (
+				77595F5F24BA0C4A0054A909 /* Sources */,
+				77595F6024BA0C4A0054A909 /* Frameworks */,
+				77595F6124BA0C4A0054A909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77595F6624BA0C4A0054A909 /* PBXTargetDependency */,
+			);
+			name = SCZmqTests;
+			productName = SCZmqTests;
+			productReference = 77595F6324BA0C4A0054A909 /* SCZmqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77595F5124BA0C4A0054A909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = RyanGao;
+				TargetAttributes = {
+					77595F5924BA0C4A0054A909 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					77595F6224BA0C4A0054A909 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 77595F5424BA0C4A0054A909 /* Build configuration list for PBXProject "SCZmq" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77595F5024BA0C4A0054A909;
+			productRefGroup = 77595F5B24BA0C4A0054A909 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 77595FBF24BA0D330054A909 /* Products */;
+					ProjectRef = 77595FBE24BA0D330054A909 /* SCRedis.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				77595F5924BA0C4A0054A909 /* SCZmq */,
+				77595F6224BA0C4A0054A909 /* SCZmqTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		77595FC424BA0D340054A909 /* SCRedis.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SCRedis.framework;
+			remoteRef = 77595FC324BA0D340054A909 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		77595FC624BA0D340054A909 /* SCRedisTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SCRedisTests.xctest;
+			remoteRef = 77595FC524BA0D340054A909 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77595F5824BA0C4A0054A909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7759600224BA13D70054A909 /* libzmq.a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77595F6124BA0C4A0054A909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77595F5624BA0C4A0054A909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77595F8624BA0C690054A909 /* Publisher.cpp in Sources */,
+				77595F9624BA0C690054A909 /* Replier.cpp in Sources */,
+				77595F8924BA0C690054A909 /* Subscriber.cpp in Sources */,
+				77595F9224BA0C690054A909 /* Client.mm in Sources */,
+				77595F8B24BA0C690054A909 /* Requester.cpp in Sources */,
+				77595F8A24BA0C690054A909 /* zmqw.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77595F5F24BA0C4A0054A909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77595F6924BA0C4A0054A909 /* SCZmqTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77595F6624BA0C4A0054A909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77595F5924BA0C4A0054A909 /* SCZmq */;
+			targetProxy = 77595F6524BA0C4A0054A909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		77595F6C24BA0C4A0054A909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77595F6D24BA0C4A0054A909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77595F6F24BA0C4A0054A909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SCZmq/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SCZmq",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shenzhen.SCZmq;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		77595F7024BA0C4A0054A909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SCZmq/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SCZmq",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shenzhen.SCZmq;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		77595F7224BA0C4A0054A909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SCZmqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shenzhen.SCZmqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77595F7324BA0C4A0054A909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SCZmqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shenzhen.SCZmqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77595F5424BA0C4A0054A909 /* Build configuration list for PBXProject "SCZmq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77595F6C24BA0C4A0054A909 /* Debug */,
+				77595F6D24BA0C4A0054A909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77595F6E24BA0C4A0054A909 /* Build configuration list for PBXNativeTarget "SCZmq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77595F6F24BA0C4A0054A909 /* Debug */,
+				77595F7024BA0C4A0054A909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77595F7124BA0C4A0054A909 /* Build configuration list for PBXNativeTarget "SCZmqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77595F7224BA0C4A0054A909 /* Debug */,
+				77595F7324BA0C4A0054A909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77595F5124BA0C4A0054A909 /* Project object */;
+}

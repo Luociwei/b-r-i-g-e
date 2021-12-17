@@ -1,0 +1,6 @@
+framework module StartUp {
+  umbrella header "StartUp.h"
+
+  export *
+  module * { export * }
+}
